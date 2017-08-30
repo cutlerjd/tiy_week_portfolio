@@ -10,14 +10,14 @@ class NavBar extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <NavLink className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
+                        <li className="nav-item">
+                            <NavLink exact className="nav-link" activeClassName="active" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/">Features</NavLink>
+                            <NavLink exact activeClassName="active" className="nav-link" to="/products">Products</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/">Pricing</NavLink>
+                            <NavLink exact activeClassName="active" className="nav-link" to="/">Pricing</NavLink>
                         </li>
                     </ul>
                     <span className="navbar-text">
