@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ProductListItem from './ProductListItem'
+import products from '../productitems'
 
 class ProductList extends Component {
     render() {
@@ -7,7 +8,7 @@ class ProductList extends Component {
                 <div>
                 <h2>Product List:</h2>
                 <div className="row">
-                <ProductListItem/>                
+                {products.map( item => <ProductListItem product={item}/>)}            
                 </div>
 
                 </div>	
