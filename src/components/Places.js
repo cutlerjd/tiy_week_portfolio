@@ -5,6 +5,12 @@ class Places extends Component {
         return (
                 <div>
                 <h2>Places to go and code!</h2>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <p>...your house. Computer screens are hard to read outdoors.</p>
                 </div>	
                 )
     }
