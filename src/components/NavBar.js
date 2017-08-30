@@ -17,11 +17,11 @@ class NavBar extends Component {
                             <NavLink exact activeClassName="active" className="nav-link" to="/products">Products</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink exact activeClassName="active" className="nav-link" to="/">Pricing</NavLink>
+                            <NavLink exact activeClassName="active" className="nav-link" to="/places">Places</NavLink>
                         </li>
                     </ul>
                     <span className="navbar-text">
-                        Navbar text with an inline element
+                        Iron Yard Weekly Assignment
               </span>
                 </div>
             </nav>
